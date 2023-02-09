@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&family=Open+Sans:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+
+div{
+    color: #BBAB9B;
+    font-family: 'Nanum Myeongjo', bold;
+    font-size: 24px;
+}
+
+body{
+    background-color: #371722;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.mainbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border: 4px solid darkgoldenrod;
+    padding: 60px;
+}
+
+.title span{
+    padding: 0px 80px 0px 80px;
+}
+
+.title{
+    padding-bottom: 50px;
+}
+
+.subtitle-box{
+    display: flex;
+}
+
+.subtitle-box div:first-child {
+    width: 120px;
+    height: 120px;
+    background-color: #FDF06F;
+}
+
+.subtitle-box__inner{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 20px;
+    width: 140px;
+}
+
+.subtitle-box div:first-child{
+    border: 2px solid white ;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitle-box__inner span:first-child{
+    font-size: 34px;
+    padding-bottom: 20px;
+}
+
+.subtitle-box__inner span:last-child{
+    font-size: 16px;
+}
+
+.play-btn{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.play-btn div {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    border-width: 2px 2px 6px 2px;
+}
+
+.play-btn div:nth-child(2), .play-btn div:last-child{
+    border-radius: 50%;
+}
+
+.play-list{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+}
+
+.play-list div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.play-list div > div{
+    border: 2px solid darkgoldenrod;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    margin: 20px 0px 20px 0px;
+}
+
+.play-list div > span{
+    padding:4px 0px 1px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.play-list span > span {
+    font-size: 16px;
+    padding: 6px 0px 6px 0px;
+}
+
+.Mataraasti{
+    background-color: #F85A2A;
+}
+
+.Attitude{
+    background-color: #FF89BB;
+}
+
+.Try-Everthing{
+    background-color: #1847E5;
+}
+
+.Sunflower{
+    background-color: #00C6AD;
+}
