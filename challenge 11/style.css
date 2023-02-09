@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+:root{
+    --main-color:black;
+    --impact-color:white;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+input{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #A6CFE2;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+article{
+    color: var(--main-color);
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 100%;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.bottom-base{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+
+.bottom-box{
+    position: absolute;
+    bottom: -10px;
+    background-color: var(--impact-color);
+    height: 90%;
+    width: 500px;
+    display: flex;
+    align-items: top;
+    padding: 60px 20px;
+    flex-direction: column;
+}
+
+.header-box{
+    padding: 0px 20px 30px 20px;
+    width: 100%;
+    color: var(--impact-color);
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-box{
+    position: relative;
+    width: 96%;
+    height: 60px;
+    position: absolute;
+    top: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.search-box > input {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    padding: 0px 30px;
+    color: gray;
+    border: 0px;
+    box-shadow: 0px 0px 6px 0px;
+}
+
+.search-box > i{
+    position: absolute;
+    right: 15px;
+}
+
+.bottom-box img{
+    margin-top: 20px;
+    width: 110px;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.bottom-box__inside{
+    display: flex;
+}
+
+.bottom-box__text{
+    padding-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: top;
+    flex-direction: column;
+}
+
+.bottom-box__text > h6{
+    opacity: 0.5;
+    font-size: 14px;
+    padding-top: 12px;
+}
+
+.starts > i{
+    padding-top: 12px;
+}
+
+.bottom-box__text__btn{
+    padding-top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+
+}
+
+.bottom-box__text__btn div{
+    color: white;
+    background-color:#371722;
+    border: 1px solid --impact-color;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80px;
+    height: 36px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.bottom-box__text__btn div:last-child{
+    margin-left: 30px;
+}
+
+.bottom-box__text__btn2{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bookmark{
+    border-radius: 15px;
+    color: var(--impact-color);
+    background-color: var(--main-color);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-bookmark{
+    width: 16px;
+    height: 18px;
+}
+
+.bottom-box__text__btn2 div:last-child{
+    border: none;
+    border-radius: 6px;
+    padding: 6px;
+    font-size: 18px;
+    color: #BBAB9B;
+    background-color: #371722;
+}
+
+.Bosslist > div{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column
+}
+
+.Bosslist__list {
+    display: flex;
+    overflow-x: auto;
+    height: 160px;
+}
+
+.Bosslist__list > div{
+    padding-left: 30px;
+}
+
+.Bosslist__list > div:first-child{
+    padding: 0px;
+    
+}
+
+.Bosslist__list div img{
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.list-star{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bottom{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom div img {
+    width: 110px;
+    height: 140px;
+}
+
+.bottom__img{
+    display: flex;
+}
+
+.bottom__img div{
+    padding: 40px 30px;
+}
+
+.bottom__text{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom__text span:last-child{
+    padding-top: 10px;
+    opacity: 0.5;
+    font-size: 16px;
+}
