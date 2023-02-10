@@ -1,0 +1,155 @@
+.left-box__creator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 22px;
+}
+
+
+.left-box__creator img {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    box-shadow: 0px 10px 20px gray;
+}
+
+.left-box__creator h4{
+    padding-top: 40px;
+    font-weight: 700;
+    
+}
+
+.left-box__creator h6{
+    padding: 10px 0px 30px 0px;
+    opacity: 0.6;
+    font-size: 16px;
+}
+
+.left-box__btn{
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.left-box__btn div{
+    margin: 0px 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+}
+
+.left-box__btn div:last-child{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 4px 10px gray;
+}
+
+.left-box__playlist{
+    box-sizing: border-box;
+    padding: 20px 0px 10px 0px;
+}
+
+.left-box__playlist > div:nth-child(2){
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+}
+
+.left-box__playlist__songlist img{
+    box-sizing: border-box;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.left-box__playlist__songlist{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.left-box__playlist__songlist__title{
+    padding: 10px 60px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ellipsis{
+    display: flex;
+    align-items: center;
+    padding: 0px 20px 0px 40px;
+}
+
+.left-box__playlist__songlist h4{
+    padding-top: 6px;
+    font-weight: 700;
+}
+
+.left-box__playlist__songlist h6{
+    padding-bottom: 6px;
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.left-box__playbar{
+    box-shadow: 0px 0px 2px gray;
+    height: 60px;
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.left-box__playbar h6{
+    font-size: 12px;
+}
+
+.left-box__playbar h4{
+    font-size: 16px;
+}
+
+.left-box__playbar h6,
+.left-box__playbar h4{
+    padding: 4px 0px;
+}
+
+.fa-pause{
+    padding: 0px 14px;
+}
+
+.right-box__playicon{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right-box__playicon div{
+    border-radius: 35px;
+    box-shadow: 0px 1px 10px gray;
+    background-color: black;
+    color: white;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-retweet,
+.fa-random{
+    opacity: 0.5;
+}
